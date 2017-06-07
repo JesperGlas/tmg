@@ -1,0 +1,20 @@
+<div class="page_wrapper">
+  <table style="width:100%">
+    <tr>
+      <td class="bold">Företag</td>
+      <td class="bold">Tjänst</td>
+      <td class="bold">Ort</td>
+    </tr>
+    <tr *ngFor="let uppdrag of uppdrag_list">
+      <td>
+        {{ uppdrag.company }}
+      </td>
+      <td>
+        {{ uppdrag.service }}
+      </td>
+      <td>
+        {{ uppdrag.location }}
+      </td>
+    </tr>
+  </table>
+</div>

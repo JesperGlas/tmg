@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~https://fonts.googleapis.com/icon?family=Material+Icons';
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+a.mail {
+  text-decoration: none;
+  color: red;
+}
+
+a.mail:hover {
+  text-decoration: underline;
+}
+
+.table_item {
+  padding: 10px;
+}
+
+.wrapper {
+  max-width: 1200px !important;
+  margin: auto;
+}
+
+.page_wrapper {
+  max-width: 1000px !important;
+  margin: auto;
+}
+
+.subheader {
+  color: red;
+  font-family: "Quattrocento", "Helvetiva Neue", "Helvetica", "Arial", "Verdana";
+  font-size: 2rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.border_img {
+  max-width: 100%;
+}
