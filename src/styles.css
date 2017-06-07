@@ -26,6 +26,10 @@ a.mail:hover {
   text-decoration: underline;
 }
 
+.copyright {
+  font-size: 0.8vw;
+}
+
 .table_item {
   padding: 10px;
 }
