@@ -10,7 +10,8 @@ import {
   MdTabsModule,
   MdButtonModule,
   MdToolbarModule,
-  MdCardModule
+  MdCardModule,
+  MdListModule
  } from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -45,7 +46,8 @@ import { FooterComponent } from './footer/footer.component';
     MdSidenavModule,
     MdButtonModule,
     MdToolbarModule,
-    MdCardModule
+    MdCardModule,
+    MdListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
