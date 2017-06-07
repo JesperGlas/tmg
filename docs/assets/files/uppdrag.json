@@ -2,31 +2,37 @@
   {
     "company": "Metria",
     "service": "Produktägare Geodata",
-    "location": "-"
+    "location": "-",
+    "url": ""
   },
   {
     "company": "-",
     "service": "Kontorschef Nyköping",
-    "location": "Nyköping"
+    "location": "Nyköping",
+    "url": ""
   },
   {
     "company": "-",
     "service": "Strategic Sales Director",
-    "location": "-"
+    "location": "-",
+    "url": ""
   },
   {
     "company": "Ahlsell",
     "service": "Försäljningschef El",
-    "location": "Sundsvall, Gävle, Borlänge"
+    "location": "Sundsvall, Gävle, Borlänge",
+    "url": ""
   },
   {
     "company": "Ahlsell",
     "service": "Försäljningschef VVS",
-    "location": "Sundsvall, Gävle, Borlänge"
+    "location": "Sundsvall, Gävle, Borlänge",
+    "url": ""
   },
   {
     "company": "-",
     "service": "Försäljningsansvarig",
-    "location": "-"
+    "location": "-",
+    "url": ""
   }
 ]

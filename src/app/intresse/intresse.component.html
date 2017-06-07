@@ -1,3 +1,50 @@
-<p>
-  intresse works!
-</p>
+<div fxLayout="column" class="page_wrapper">
+  <div>
+    <h2>Välkommen till Talent Management Group</h2>
+    <p>
+      Genom att registrera dig hos oss kan du enkelt och snabbt anmäla dig som sökande till våra aktuella rekryteringar.
+      Du kan även lägga in dina uppgifter i väntan på att rätt tjänst dyker upp, din cv blir då sökbar för oss. Du kan sedan
+      på egen hand löpande uppdatera dina uppgifter.
+    </p>
+    <p>
+      Självklart behandlas all information konfidentiellt och enligt gällande lagstiftning (PUL). Ingen information kommer att delges
+      våra uppdragsgivare eller andra utomstående utan ditt godkännande.
+    </p>
+    <p>
+      Vi vet att din tid är dyrbar. Därför har vi har försökt begränsa mängden nödvändig information till minsta möjliga.
+      Tänk dock på att ju mer du delger oss om din karriärhistorik, desto större sannolikhet är det att du blir kontaktad med
+      rätt typ av spännande utmaningar.
+    </p>
+  </div>
+  <div fxLayout="column" fxLayout.gt-sm="row" fxLayoutGap="20px">
+    <div fxFlex="50%" style="padding:10px;">
+      <h3>Registrering</h3>
+      <p>
+        För att kunna söka en aktuell befattning eller anmäla intresse för en ny befattning måste Du först registrera Dig
+      </p>
+      <button md-raised-button color="primary">
+        Skapa Konto
+      </button>
+    </div>
+    <div fxLayout="column" fxFlex="50%" style="padding:10px;">
+      <h3>Inloggning</h3>
+      <p>
+        Om du har registrerat dig loggar du in här.
+      </p>
+      <md-input-container>
+        <input mdInput placeholder="E-Post" value="">
+      </md-input-container>
+      <md-input-container>
+        <input mdInput placeholder="Lösenord" value="">
+      </md-input-container>
+      <div fxLayout="row">
+        <button md-raised-button fxFlexAlign="start" color="primary">
+          Logga In
+        </button>
+        <button md-raised-button fxFlexAlign="start" color="accent">
+          Glömt Inloggningsuppgifter
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
