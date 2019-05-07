@@ -1,4 +1,7 @@
-# Tmg
+# Description
+A project to replicate a website in Angular for training purposes. Real site: http://talentmanagementgroup.se/
+
+# Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
 
